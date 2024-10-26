@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef6e4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.bloquePerfil {
+    display: flex;
+    align-items: center;
+    background-color: #ff5400;
+    color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.cuadrado {
+    position: relative;
+    width: 100px;  /* Tamaño fijo para el contenedor cuadrado */
+    height: 100px; /* Mismo tamaño para altura */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden;  /* Asegura que la imagen no se salga del contenedor */
+    background-color: #ddd;  /* Color de fondo para que el cuadrado sea visible */
+}
+  
+.cuadrado img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;   /* Ajusta la imagen al ancho del contenedor */
+    height: auto;  /* Mantiene la proporción original de la imagen */
+    transform: translate(-50%, -50%);  /* Centra la imagen en el contenedor */
+    object-fit: cover;  /* Recorta la imagen para que llene el cuadrado sin deformarse */
+}
+  
+  
+  
+.nombre {
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.raza {
+    color: gray;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+.agregarMascota {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5400;
+    color: white;
+    margin: 0 auto;  /* Centra el botón horizontalmente */
+    margin-top: 20px;
+    width: 60px;  /* Ajusta el ancho según lo que necesites */
+    height: 60px; /* Ajusta la altura según lo que necesites */
+    border-radius: 50%; /* Hace el botón completamente redondo */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Le da un poco de sombra para darle profundidad */
+    cursor: pointer;  /* Cambia el cursor para indicar que es clickeable */
+}
+
+

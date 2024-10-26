@@ -1,0 +1,74 @@
+.custom-tab-bar {
+  background-color: #ffbe0b;
+  color: white;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  padding: 10px 0;
+  flex-wrap: wrap; 
+}
+
+.custom-tab-bar ion-tab-button {
+  --color-selected: white;
+  --color: white;
+  background-color: #ffbe0b;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  min-width: 100px; 
+}
+
+.custom-tab-bar ion-tab-button ion-icon {
+  margin-bottom: 4px; /* Espacio entre icono y texto */
+  font-size: 24px; /* Tamaño de ícono */
+}
+
+.custom-tab-bar ion-tab-button ion-label {
+  font-size: 14px; /* Tamaño del texto */
+}
+
+.custom-tab-bar ion-tab-button:hover {
+  background-color: #ffbe0b; /* Mantener el mismo fondo en hover */
+}
+
+.custom-tab-bar ion-tab-button.ion-activated {
+  background-color: #ffbe0b; /* Mantener el mismo fondo en activo */
+}
+
+.cuadrado {
+  position: relative;
+  width: 100px;  /* Tamaño del contenedor cuadrado */
+  height: 100px; /* Tamaño del contenedor cuadrado */
+  border-radius: 10px; 
+  overflow: hidden;
+}
+
+.cuadrado img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;   
+  height: auto; 
+  transform: translate(-50%, -50%); 
+  object-fit: cover; 
+}
+
+/*
+.header a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #ffbe0b;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.header a.active {
+  background-color: #ffdd57; 
+}
+.header a:hover {
+  background-color: #ffd95c;
+}
+*/
