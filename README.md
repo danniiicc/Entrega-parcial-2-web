@@ -34,5 +34,5 @@ Como es sabido sqLite no necesita un servidor de base de datos separador lo que 
 Además, también es totalmente compatible con las propiedades ACID, lo que significa que es completamente seguro y puede moverse fácilmente entre sistemas al ser un archivo local.
 
 ## EP2.4: Uso de Patrones de Diseño
-Para este punto incluimos encabezados con logos intuitivos, mensajes de retroalimentación, pie de página, entre otros
+Para este punto incluimos encabezado, mensajes de retroalimentación, pie de página, entre otros
  
